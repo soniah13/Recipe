@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -10,6 +10,7 @@ function Navbar() {
           <div className='flex float-right sticky top-2'>
             <Link to ='/' className='hover:border-b border-3 border-black float-right px-3'>Home</Link>
             <Link to ='/gallery' className='hover:border-b border-3 border-black float-right px-3'>Gallery</Link>
+            <Link to ='/addRecipe' className='hover:border-b border-3 border-black float-right px-3'>Add your Recipe</Link>
             <Link to ='/about' className='hover:border-b border-3 border-black float-right px-3'>About Us</Link>
             <Link to ='/login' className='hover:border-b border-3 border-black float-right px-3'>Login</Link>
             <Link to ='/suprise' className='hover:border-b border-3 border-black float-right px-3'>Suprise Me</Link>

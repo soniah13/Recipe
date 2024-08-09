@@ -47,7 +47,7 @@ function Login() {
   return (
     <>
       <div className='bg-gradient-to-tr from-blue-200 via-green-300 to-lime-500 h-screen w-full pt-36 flex justify-center align-center '>
-        <div className='h-3/4 w-1/2 center bg-gray-200 rounded-3xl'>
+        <div className='h-3/4 w-1/2 center bg-yellow-100 rounded-3xl'>
         <h1 className='text-center text-4xl font-bold mt-10 underline'>Welcome To Alice Kitchen</h1>
         <p className='text-center text-xl text-green-700 my-5'>yeeeey! you already a member</p><hr/>
         {error? (<div>{error}</div>): ('')}
