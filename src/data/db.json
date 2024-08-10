@@ -6,7 +6,8 @@
       "category": "oven meal",
       "Ingredients": " 5 eggs, 1 cup(150g) of self-rising flour, 375g grated zucchini, 1 large onion finely chopped, 200g chopped bacon, 1 cup grated cheddar cheese, 1/4 cup vegetable oil.",
       "Procedure": "Preheat oven to 170 degrees celcius, Beat the eggs in a large bowl until combined. Add the flour and beat until smooth, then add zucchini, onion, bacon, cheese and oil and stir to combine. Grease and line a 30 x 20cm pan. Pour into the prepared pan and bake in oven for 30 minutes or until cooked through.",
-      "image": "/src/assets/Images/image1.png"
+      "image": "/src/assets/Images/image1.png",
+      "secret": ""
     },
     {
       "Name": "Kung Pao Chicken",
@@ -15,7 +16,8 @@
       "category": "stew",
       "Ingredients": "Chicken breast, Sichuan pepper, Chinese vinegar,1tbsp Dried Chillies, 2tbsp sugar, 1tbsp light soy sauce, 8tbsp Garlic chopped, 2cup snow peas, Green Onion chopped, Chinese cooking wine, corn flour, 1 tbsp rice vinegar, 1 tbsp ginger minced, sesame oil, dark soy sauce, 1 cup cashews chopped ",
       "Procedure": "In a bowl, add ingredients for the sauce and whisk together. Set a nonstick skillet on medium-high heat, and spray with extra-virgin olive oil. When the skillet is hot, toss in garlic and sear for about two minutes.Add chopped chicken breast.Cook the chicken for about 6-8 minutes, or until the outside is seared.Next, toss in chopped bell peppers and sear for about three minutes. Stir the mixture with a wooden spatula.Slowly pour in the tomato sauce, stirring frequently.Toss in the raw cashews and stir.Garnish with green onions and enjoy with brown rice or quinoa!",
-      "image": "/src/assets/Images/image2.png"
+      "image": "/src/assets/Images/image2.png",
+      "secret": "marinate the chicken with the sauce including lemon juice, then fry the chicken pieces first."
     },
     {
       "Name": "Sweet & Spicy Chicken Meatballs",
@@ -23,7 +25,8 @@
       "category": "stew",
       "Ingredients": "For the meatballs : 1 ground chicken, 1/3 cup finely diced yellow onion, 1 large egg, 1/4 cup wheat flour, 1/3 cup oatmeal rolled, 1/4 tsp salt, 1/4 tsp pepper, 2tsp minced garlic. For the kung pao sauce 1/4 cup soysauce, 2tbsp sriracha, 2tbsp chilli paste, 2tbsp honey",
       "Procedure": "Preheat oven to 400ºF, and coat a baking sheet with cooking spray. Set aside. Place meatball ingredients into a large bowl, and mix until combined.Using a tablespoon-size cookie scoop, scoop out mixture and mold into a ball with your hands (Tip: It works best if your hands are slightly wet.) Place on baking sheet. Bake meatballs at for 25–28 minutes, or until the top begins to turn golden brown and are cooked through. Meanwhile, mix kung pao sauce ingredients together in a small bowl.Once the meatballs have slightly cooled, toss in sauce. Serve hot!",
-      "image": "/src/assets/Images/image3.png"
+      "image": "/src/assets/Images/image3.png",
+      "secret": ""
     },
     {
       "Name": "Beef & Vegetable Stir-Fry",
@@ -33,7 +36,8 @@
       "serving": "4 persons",
       "Ingredients": "1pound asparagus, 12 ounces steak cut into thin strips 3 tbsp all-purpose flour, 1/4 cup light soysauce, 1/4 water, 2 garlic cloves minced, 1 tbsp sesame oil, 1tbsp hoisin sauce, 1/4 crushed red pepper, 4 small carrots cut diagonally into 1/4s, 1/2 cup sliced fresh mushrooms, 5 green onions cut into 1inch pieces, 2 cups hot cooked rice ",
       "Procedure": "Snap off tough ends of asparagus; cut spears into 1-inch pieces, and set aside. Dredge steak in flour; set aside. Stir together soy sauce, 1/4 cup water, garlic, 1 teaspoon sesame oil, hoisin sauce, and crushed red pepper.Heat remaining 2 teaspoons oil in a large skillet or wok over medium-high heat 2 minutes. Add beef and carrot, and stir-fry 4 minutes. Add soy sauce mixture, and stir-fry 1 minute. Add asparagus, bell pepper, mushrooms, and green onions, and stir-fry 3 minutes. Serve over rice. Vegetable Stir-fry: Omit round steak and flour, and stir-fry vegetables as directed above.",
-      "image": "/src/assets/Images/image4.png"
+      "image": "/src/assets/Images/image4.png",
+      "secret": ""
     },
     {
       "Name": "Summer Pasta Salad",
@@ -42,7 +46,8 @@
       "serving": "6-8 persons",
       "Ingredients": "8 ounces, gluten free pasta cooked and chilled, 3 tbsp olive oil, 1 cucumber diced, 8 mini tomatoes diced, 3 ounces feta cheese, salt and pepper to taste",
       "Procedure": "mix everything together and serve cold",
-      "image": "/src/assets/Images/image5.png"
+      "image": "/src/assets/Images/image5.png",
+      "secret": ""
     },
     {
       "Name": "Roast Chicken",
@@ -52,7 +57,8 @@
       "serving": "6-8 persons",
       "Ingredients": "4 pounds chicken, 1 1/2 tbsp extra virgin oil, 2tsp salt, freshly geound black pepper",
       "Procedure": "Set the oven 450 degrees farenheit, in the meantime, spatchcock and season the chicken. lay it brest side down on a cutting board, use a pair of scissors to snip along one side of the spine, then the other to remove it (save in the freezer for stock). flip the chicken over and press down on the breastbone until you hear a soft crack. pat the chicken dry wirh a paper towl. rub with olive oil then season with salt and pepper. When the timer goes off, carefullty remove the sheet pan from the oven. quickly add the chicken and then get it back in the oven. Roast for about 30min until a meat thermometer inserted into the joint between the thigh and body reached 165degrees F or using a knife in the same place produces clear juices. Let rest for about 10 min then carve, serve on the sheet pan with bread and salad alongside.",
-      "image": "/src/assets/Images/image6.png"
+      "image": "/src/assets/Images/image6.png",
+      "secret": ""
     },
     {
       "Name": "Pancake and Waffle Creamy Peanut Butter",
@@ -60,17 +66,19 @@
       "category": "snack",
       "Ingredients": "1/2 cup vanilla chobani, 1tbsp honey, 1tbsp peanut butter",
       "Procedure": "Mix all ingredients, heat in the microwave for 30 second and serve on top of whole wheat pancakes or waffles in place of syrup.",
-      "image": "/src/assets/Images/image7.png"
+      "image": "/src/assets/Images/image7.png",
+      "secret": ""
     },
     {
-      "Name": "Tomato ^ orange soup",
+      "Name": "Tomato & orange soup",
       "id": "008",
       "serving": "8 persons",
       "category": "soup",
       "prep": "40min",
       "Ingredients": "2tbsp olive oil, 1 onion roughly chopped, 2 garlic cloves crushed, 2kg ripe tomatoes skinned and chopped, 2 tbsp tomato puree, 450ml vegetable stock, grated rind 1 large orange, 75ml orange juice, 4 basil strigs, 2tbsp sugar, salt and pepper",
       "Procedure": " heat the oil in a large sauce pan and fry the onions and garlic until softened. Add the tomatoes, stock, puree , orange rind and juice and basil. bring to boil then reduce the heat, cover the pan and simmer gently for 20-25min until vegetables are soft. Using a blender or food processor blend the vegetables. sieve the soup to remove seeds, season with salt and pepper and a little sugar. Return to the heat and bring to a boil",
-      "image": "/src/assets/Images/image8.png"
+      "image": "/src/assets/Images/image8.png",
+      "secret": ""
     },
     {
       "Name": "Pumkin, orange & star soup",
@@ -80,7 +88,8 @@
       "category": "soup",
       "Ingredients": " 25g butter, 1 onion roughly chopped, 1 small pumkin quarted deseesed peeled and sliced, 2 small oranges rind removed and juice squeezed, 1 litre vegetable stock, 3 whole star anise, slat and pepper, crushed peppercorns",
       "Procedure": "Heat the butter in a large saucepan, add the onion and fry gently for 5 minutes, add the pumkin toss in the butter and fry for 5 minutes. Mix in the orange rind and juice, the stock and star anise. season with salt and pepper abd bring to a boil. cover and simmer for 30min, until pumkin is soft, scoop out the star and reserve. Allow the soup to cool slightly, the puree in blender or processor until smooth. pour back into the saucepan and reheat. taste and adjust the seasoning if needed.",
-      "image": "/src/assets/Images/image9.png"
+      "image": "/src/assets/Images/image9.png",
+      "secret": ""
     },
     {
       "Name": " Squash & Coriander soup",
@@ -90,7 +99,8 @@
       "serving": "6 persons",
       "Ingredients": "1tbsp sunflower oil, 1 onion roughly chopped, 3tbsp red thai curry paste, 2 garlic cloves finely chopped, 1 butter squash halved, 400ml full fat coconut milk, 750ml begetable /chicken stock, 2tsp fish sauce, coriander, pepper",
       "Procedure": "Heat the oil in saucepan, add the onionand fry gentle fpr 5min until softened. stir in the curry paste, garlic and ginger and cook for 1 min. then mix in the squash, cocnut milk, stock and fish sauce. add a little pepper(dont add salt the fish sauce is salty) the bring to a boil. Cover the pan and simmer for 45min, stirring occasionally until the squash is soft. Leave to cool slightly. Reserve a few sprigs for coriander for garnish the tear the remainder into pieces and add to the soup, Puree the soup in a blender and food processor until smooth. Pour back into the saucepan and reheat, tearing in the reserved coriander sprigs.",
-      "image": "/src/assets/Images/image10.png"
+      "image": "/src/assets/Images/image10.png",
+      "secret": ""
     },
     {
       "Name": "Gingered Cauliflower soup",
@@ -100,7 +110,8 @@
       "category": "soup",
       "Ingredients": "1 tbsp sunflower oil, 25g butter, 1 onion roughly chopped, 1 cauliflower cut into florets woody core, 1 1/2 inch root ginger peeled and finely chopped, 900ml vegetable/chicken stock,300ml milk, 150ml double cream,salt and pepper. 1tbsp sunflower soil, 2tbsp sesame seeds, 2tbsp sunflower seeds, 2tbsp pumkin seeds, 1tbsp soysauce.",
       "Procedure": "Heat th oil and butte in a saucepan, add the onion and fry for 5min until softened but not coloured, stir in the cauliflower florets and ginger, the the stock. season with salt and pepper and bring to a boil. cover and simmer for 15min until cauliflower is just tender. Meanwhile make the glazed seeds by heating the oil in a frying pan , add the seeds and cook for 2-3min stirring until lighlt browned. add the soy sauce, then quickly cover the panwith a lid until the seeds have stopped popping, set aside until ready to serve. Puree the cooked soup in batches in a blender or food processer, the pour back into the saucepan and stir in the milk and half the cream. Bring just to the boil, then taste and adjust the seasoning if needed",
-      "image": "/src/assets/Images/image11.png"
+      "image": "/src/assets/Images/image11.png",
+      "secret": ""
     },
     {
       "Name": "Honey-roasted parnip soup",
@@ -110,7 +121,8 @@
       "category": "soup",
       "Ingredients": "750g pasrsnips cut into wedges, 2 onions cut into wedges, 2tbsp olive oil, 2tbsp honey, 1tsp ground turmeric, 1/2tsp dried crushed chillies, 3 garlic cloves thickly sliced, 1.2litres vegetable/chicken stock, 2 tbsp sherry/cider vinegar, 150ml double cream, 5cm piece of fresh root ginger peeled and grated, salt and pepper, a little turmeric to garnish",
       "Procedure": "Arrange the parsnips and onions in a large roasting tin with a single layer, then drizzle with the oil and honey. sprinkle with the turmeirc, crushed chiilies and garlic. Roast in a pre heated oven, 190 degrees celcius for 45min, turning once until deeply golden brown with a sticky caramelized edges. Transfer the roasting tin to the hob, add the stock, vinegar and stock, vinegar and salt and pepper and bring to a boil, scraping up the juices from the base of the pan. simmer for 5min. Allow the soup to cool slightly, then puree in batches in a blender or food processor until smooth. pour into a saucepan and reheat. taste and adjust the seasoning and top up with a little pepper together. Ladle the soup into bowla and drizzle the ginger cream over the top and garnish with a little turmeric",
-      "image": "/src/assets/Images/image12.png"
+      "image": "/src/assets/Images/image12.png",
+      "secret": ""
     },
     {
       "Name": "Peanut butter Cookies",
@@ -120,7 +132,8 @@
       "category": "snack",
       "Ingredients": "125g unsalted butter room temprature, 150g soft brown sugar, 125g chunky peanut butter, 1 egg, 150g plain flour, 1/2 tsp baking flour, 125g unsalted peanuts.",
       "Procedure": "Beat the butter and sugar together in a mixing bowl or food processor until pale and creamy. Add the peanut butter, egg and flour and baking powder and stir together until combined. Stir in the peanuts. Drop large tspfull of the mixture on to 3 large lighly oiled baking sheets, leaving them to spread during cooking. Flatten the moulds slightly and bake in a preheated oven, 190degrees, for 12min until golden around the edges. Leave it to cool on the baking sheets for 2min then transfer to a wire rack to completely cool. ",
-      "image": "/src/assets/Images/image13.png"
+      "image": "/src/assets/Images/image13.png",
+      "secret": ""
     },
     {
       "Name": "Chocolate chip Shortbread",
@@ -130,7 +143,8 @@
       "category": "snack",
       "Ingredients": "150g plain flour, 25g cornflour, 125g butter diced, 50g caster sugar, 75g milk chocolate chopped, little ground cinamon, 1tbsp caster sugar.",
       "Procedure": "Put the flours in a mixing bowl or food processor. Add the butter and rub in with your fingertips or processor until the mixture resembles fine breadcrumbs. Stir in the sugar and chocolate then squeeze the crumbs together with your hands to form a ball. Press into an ungreased 18cm shallow square cake tin and prick top with a fork. Mix the cinnamon and sugar together and sprinkle half over the top. Bake in a preheated oven 160 degrees. for 25min until pale golden. Remove from the oven and mark into 12bars. Sprinkle with the remaining cinnamon sugar mix and leave to cool in the tin. Cut the shortbread right through and lift out of the tin. Store in an airtight tin for 5 days.",
-      "image": "/src/assets/Images/image14.png"
+      "image": "/src/assets/Images/image14.png",
+      "secret": ""
     },
     {
       "Name": "Banana, date & Walnut loaf",
@@ -160,7 +174,8 @@
       "serving": "cuts into 8min",
       "Ingredients": "175g butter at room temprature, 175g caster sugar, 175g brown rice flour, 3 eggs, 1tbsp baking powder, few drops vanila essence, 1tbsp milk, 4 tbsp rasberry jam, sifted icing sugar.",
       "Procedure": "Place all the cake ingredients in a mixing bowl or food processor and beat well untill smooth, Divide the mixture evenly between 2 greased and floured 18cm nonstick round cake tins and bake in a preheated oven 200 degrees for about 20min ubtil golden and risen. Remove from the oven and turn out to a wire rack to cool. Sandwich the cakes together with jam and dust with icing sugar.",
-      "image": "/src/assets/Images/image17.png"
+      "image": "/src/assets/Images/image17.png",
+      "secret": "freshly squeezed jam"
     },
     {
       "Name": "Date & Pistachio truffles",
@@ -240,7 +255,7 @@
       "serving": "4-5 persons",
       "Ingredients": "5 insh stalks lemon grass, bruised roughly sliced, 200ml coconut milk, 200ml double cream, 1 large egg, 2egg yolks, 125g caster or fine brown sugar, pinch of salt",
       "Procedure": "Mix the lemon grass with the coconut milk, squeezing it to release the perfume. Leave to infuse for 30min. Squeeze once more, strain and then discard the lemon grass. Fill a large saucepan with water and bring to the boil over a medium heat. Meanwhile put the lemon grass and cococnut milk mixture in a saucepan with the double cream, stir over a gentle heat without boiling for 3-4min and set aside. Place the egg, egg yolk sugar and salt in a large heatproof bowl over the boiling water. Use an electric mixer to whisk the mixture for 3-4min until frothy and thicken. Gradually add the lemon grass and cococnut milk mixture mix for another 5-6min to make a thin cream. Leave to cool, pout into a plastic container and freeze for 3 hours or until half frozen. Take the ice cream out and combo it with a fork once or twice during the freezing time. Cover and freeze completely, remove the ice cream from the freezer at least15min before serving so that it becomes slightly softened. Serve on its own or with white sticky rice. ",
-      "image": "/src/assets/Images/image1.png"
+      "image": "/src/assets/Images/image25.png"
     },
     {
       "Name": "Stcky rice with mango",
@@ -295,7 +310,7 @@
     {
       "Name": "Quick nachos",
       "id": "031",
-      "category": "gluten free",
+      "category": "Gluten free",
       "Prep": "4min",
       "serving": "4 persons",
       "Ingredients": "200g gluten free plain corn tortilla chips, 300g ready mad fresh tomatoes salsa, 125g monterey jack or cheddar cheese, grated handful coriander, chopped sour cream to serve",
@@ -315,12 +330,13 @@
     {
       "Name": "Seafood noodles",
       "id": "033",
-      "category": "gluten free meal",
+      "category": "Gluten free meal",
       "Prep": "30min",
       "serving": "4 persons",
       "Ingredients": "375g dried rice ribbon noodles, 3tbsp olive oil, 1 small onion, 3 garlic cloves crushed, 5cm fresh ginger root peeled and grated, 1 red chillie deseesed and finely chopped, 200g cherry tomatoes quarted, 500g raw prawns peeled and deveined, 200g fresh white crab meat, 3tbsp chopped parsely",
       "Procedure": "Soak the noodles in boiling water according to the pack instructions. drain well. Meanwhile heat the oil in a large frying oan, add the onion, garlic, ginger and chilli and fry for 1-2 min until softened. Meanwhile heat the oil in a large frying pan, add the onion, garlic, ginger and chilli and fry for 1-2 min until softened. Add the tomatoes and prawns and cook for 2-3 min or until the prawns are cooked through and piping hot. Stir in the crab meat and persley, combine with the noodles and serve immediately.",
-      "image": "/src/assets/Images/image33.png"
+      "image": "/src/assets/Images/image33.png",
+      "secret": "use prawns"
     },
     {
       "Name": "Baked brie with maple syrup",
@@ -341,12 +357,6 @@
       "Ingredients": "800g floury potatoes peeled and diced, 1 egg yolk beaten, 150g plain flour, 15g basil leaves finely shredded, 50g hard cheese grated, 4tbsp etra virgin oil, salt and pepper",
       "Procedure": "Cook the potatoes in a saucepan of boiling water for 12-15min, until soft. drain and mash, or use a potato ricer to get really smooth texture. Place another saucepan of water on the heat to boil. Transfer the mashed potato to a bowl and mix well in the egg yolk, flour and basil. Mix well to combine. Take a teaspoon of the mixture into your hand and rool into a walnut sized ball. Press with the prongs of a fork ro make a gnocchi shape. Repeate process for the remaining mixture. Drop the gnocchi into the saucepan of boiling water to cook , this should take 1-2 min and the gnocchi will fload when cooked. Toss the hot gnocchi in the grated cheese and olive oil and serve immediately.",
       "image": "/src/assets/Images/image35.png"
-    },
-    {
-      "id": "92541ca0-e982-4c4e-a22e-187d5f0b3d38",
-      "Name": "githeri",
-      "Ingredients": "maize, beans, onions, tomatoes",
-      "Procedure": "leave the maize and beans to cook over night with alot of water. once well cooked. cook the onions with cooking oil until golden brown, add the tomatoes and cook very well until oil separates from the tomatoes. add your spices of choice and your gither. mix until well incoporated and add water to you preference"
     }
   ]
 }

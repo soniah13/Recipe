@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 function RecipeDetails() {
     const {id} = useParams();
     const [recipe, setRecipe] = useState([]);
+    const [isEditing, setIsEditing] = useState(false);
 
     useEffect (() => {
         console.log('useEffect called')
@@ -20,6 +21,26 @@ function RecipeDetails() {
         })
         .catch((error) => console.error("Error Fetching data", error))
     },[id])
+
+    const handleChange = (e) => {
+      const {name, value} = e.target;
+      setRecipe(prevRecipe => ({
+        ...prevRecipe, [name] : value 
+      }));
+    };
+
+    const handleSave = () => {
+      fetch(`http://localhost:8000/recipe/${id}`, {
+        method: 'PUT', header : {'Content-Type' : 'application/json'},
+        body:JSON.stringify(recipe)
+      })
+      .then(res => {
+        setRecipe(data);
+        setIsEditing(false);
+        console.log('Recipe saved', data);
+      })
+      .catch((error) => console.error("Error saving data", error));
+    };
 
     if(!recipe) return <p>Loading...</p>
   return (
@@ -44,6 +65,34 @@ function RecipeDetails() {
           </ul>
           <h3 className='text-xl text-leftt font-bold mb-2 p-2'>Procedure</h3>
           <p>{recipe.Procedure}</p>
+
+          <h3 className='text-center text-xl font-bold mb-2 p-2'>Ingredients</h3>
+          {isEditing ? (
+            <textarea className='w-full p-2 h-20' name='Ingredients' value={recipe.Ingredients} onChange={handleChange}></textarea>
+          ) : (
+            <ul className='list-disc ml-5 mb-4 p-2'>
+              {recipe.Ingredients && recipe.Ingredients.split(',').map((ingredients,index) => (
+              <li key={index}>{ ingredients}</li>
+            ))}
+              </ul>
+          )}
+          <h3 className='text-center text-xl font-bold mb-2 p-2'>Procedure</h3>
+          {isEditing ? (
+             <textarea className='w-full p-2 h-20' name='procedure' value={recipe.Procedure} onChange={handleChange}></textarea>
+          ):(
+            <p>{recipe.Procedure}</p>
+          )}
+          <h3 className='text-center text-xl font-bold mb-2 p-2'>Secret spice</h3>
+          {isEditing ? (
+             <textarea className='w-full p-2 h-20' name='secret' value={recipe.secret} onChange={handleChange}></textarea>
+          ):(
+            <p>{recipe.secret}</p>
+          )}
+          <button className='mt-4 p-2 bg-blue-500 text-white rounded w-36' onClick={() => setIsEditing(!isEditing)}>{isEditing? 'cancel' : 'Edit'} </button>
+
+          {isEditing && (
+            <button onClick={handleSave} className='mt-4 ml-2 p-2 bg-green-500 text-white rounded'>Save</button>
+          )}
           </div>
           </div>
           </div>

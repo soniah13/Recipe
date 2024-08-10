@@ -20,12 +20,12 @@ function Registration() {
         }
         try{
             const response = await axios.post('http://localhost:8001/users', {
-                email, password
+                email, password,
             });
 
             if (response.status === 201) {
                 alert("You are successfully registered");
-                useNavigate('/login');
+                navigate('/login');
             }else {
                 setError("Registration failed")
             }
@@ -43,7 +43,7 @@ function Registration() {
         <div className='h-5/6 w-1/2 center bg-yellow-100 rounded-3xl'>
         <h1 className='text-center text-4xl font-bold mt-10 underline'>Register at Alice Kitchen</h1>
         <p className='text-center text-xl text-green-700 my-5'>Add your details to become a member</p><hr/>
-        {error? (<div>{error}</div>): ('')}
+        {error? (<div className='text-red text-xl font-bold'>{error}</div>): ('')}
         <form onSubmit={handleRegister}>
             <div className='flex m-5 p-5'>
                 <label htmlFor='email' className='text-xl font-semibold p-3 '>Email</label>
@@ -54,7 +54,7 @@ function Registration() {
                 <label htmlFor='password' className='text-lg font-semibold p-3' >Password</label>
                 <input className='bg-transparent rounded-md border border-2 border-green-200 w-full p-3' id='password'type={showPassword? 'text':'password'} value={password} 
                 placeholder='Enter your password' onChange={e => setPassword(e.target.value)} required />
-                <button className='text-3xl'  onClick={toggleShowPassword} 
+                <button className='text-3xl'  onClick={toggleShowPassword} type='button'
                 aria-label= {showPassword? "Hide password" : "Show password"}>{showPassword? '🙈' : '👁️'}</button>
             </div>
             <div className='flex m-3 p-3'>

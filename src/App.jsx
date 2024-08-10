@@ -8,6 +8,7 @@ import RecipeDetails from './Components/RecipeDetails'
 import Login from './Components/Login'
 import Registration from './Components/Registration'
 import AddRecipe from './Components/AddRecipe'
+import SupriseMe from './Components/SupriseMe'
 
 
 function App() {
@@ -22,11 +23,12 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/login' element={ <Login/>}/>
       <Route path='/register' element={<Registration/>}/>
+      <Route path='/suprise' element={<SupriseMe/>}/>
       <Route path='/gallery'element={<Gallery recipes={recipes} setRecipes={setRecipes}/>}/>
       <Route path='/addRecipe'element={<AddRecipe recipes={recipes} setRecipes={setRecipes}/>}/>
-      <Route path='/recipe/:id' element ={<RecipeDetails/>} />
-      
+      <Route path='/recipe/:id' element ={<RecipeDetails/>} />  
     </Routes>
+
     </BrowserRouter>
   )
 }
